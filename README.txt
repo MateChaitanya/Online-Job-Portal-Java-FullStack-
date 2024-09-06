@@ -1,44 +1,65 @@
+# Online Job Portal
 
-FOR THE SET UP OF PROJECT, PLEASE FOLLOW THE SET UP GUIDE VIDEO PROPERLY WITHOUT SKIPPING ANYTHING.
+## Overview
 
------------------------------------------------------------------------
+The **Online Job Portal** is a comprehensive web application designed to streamline job search and recruitment processes. Developed using a combination of React.js for the frontend, Spring Boot for the backend, and MySQL for database management, this application allows users to register, post jobs, and apply for jobs with ease. The portal is equipped with functionalities for employers, employees, and admins.
 
-Befor starting the project set up, make sure you have properly installed the below softwares:
-1) Java JDK 17 or above version
-2) STS (STS 4 recommended)
-3) Node JS
-4) Vs Code
-5) MySQL Server and MySQL WorkBench (use can also use Command prompt for Data Querying, But I recommend to use Workbench)
+## Features
 
------------------------------------------------------------------------
+### Modules
 
-As shown on video, For running frontend we have to use [npm start] command.
+1. **Register Employer**
+   - Employers can register and create their profiles.
+   - They can post job openings with detailed job descriptions and company information.
 
-1) After hitting [npm start] command, when we get [Error: cannot find module react], 
+2. **Register Employee**
+   - Employees can register and set up their profiles.
+   - They can browse available job listings, view job details, and apply for positions.
 
-so in that case, please hit below command.
+3. **Login**
+   - Both employers and employees can log in to access their respective dashboards.
+   - Admins can manage user roles and oversee the job portal's operations.
 
-npm install --save react react-dom @types/react @types/react-dom
+### User Roles
 
-and after hitting the above command, you can hit the command [npm start] and now this time it will work fine.
+- **Admin**
+  - Manage user accounts (employers and employees).
+  - Oversee job postings and applications.
+  
+- **Employer**
+  - Post and manage job openings.
+  - Review applications and contact potential candidates.
 
-2) Sometime we can also get below error:
+- **Employee**
+  - Search for jobs, view job details, and submit applications.
+  - Manage their profile and view application status.
 
-react-scripts' is not recognized as an internal or external command
+## Technologies Used
 
-so in this case hit below command firstly, then again hit [npm start] command.
+- **Frontend:**
+  - React.js for building dynamic user interfaces.
 
-npm install react-scripts --save
+- **Backend:**
+  - Spring Boot for creating the RESTful API services.
+  - Hibernate for ORM (Object-Relational Mapping).
+  - JDBC for database connectivity.
 
------------------------------------------------------------------------
+- **Database:**
+  - MySQL for storing user data, job postings, and applications.
 
-MYSQL FAQs:
+## Getting Started
 
-Do I need to create database and table manually?
+### Prerequisites
 
-NO, you don't have to create the Database and Tables manually in the MySQL Server. When you run the backend application for the first time it automatically
-creates the Database and Tables in the MySQL server.
+- Java JDK 11 or higher
+- Node.js (version 14 or later)
+- MySQL Database
+- Maven (for building the Spring Boot application)
 
-You just have to enter the correct mysql password in application.properties file and make sure MySQL Server is properly installed in your system.
+### Setup
 
+1. **Clone the Repository**
 
+   ```bash
+   git clone https://github.com/your-username/online-job-portal.git
+   cd online-job-portal
