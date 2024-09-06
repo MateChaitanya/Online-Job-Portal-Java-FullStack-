@@ -12,19 +12,16 @@ The **Online Job Portal** is a comprehensive web application designed to streaml
    - Employers can register and create their profiles.
    - They can post job openings with detailed job descriptions and company information.
 
-   ![Register Employer](https://your-image-hosting-url.com/your-uploaded-image1.png)
 
 2. **Register Employee**
    - Employees can register and set up their profiles.
    - They can browse available job listings, view job details, and apply for positions.
 
-   ![Register Employee](https://your-image-hosting-url.com/your-uploaded-image2.png)
 
 3. **Login**
    - Both employers and employees can log in to access their respective dashboards.
    - Admins can manage user roles and oversee the job portal's operations.
 
-   ![Login](https://your-image-hosting-url.com/your-uploaded-image3.png)
 
 ### User Roles
 
